@@ -1,0 +1,13 @@
+
+'xtick.color': blue,  # set the tick labels to white
+'ytick.color': blue,
+'xtick.direction': 'out',  # set the direction of the ticks to 'out'
+'ytick.direction': 'out',
+'xtick.major.size': 4,  # set the size of the major tick markers
+'ytick.major.size': 4,
+'xtick.minor.size': 2,  # set the size of the minor tick markers
+'ytick.minor.size': 2,
+'xtick.major.width': 1,  # set the width of the major tick markers
+'ytick.major.width': 1,
+'xtick.minor.width': 1,  # set the width of the minor tick markers
+'ytick.minor.width': 1,
