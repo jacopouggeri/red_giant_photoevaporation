@@ -1,0 +1,11 @@
+set(MY_MODS read_data.f90 CACHE INTERNAL "")
+add_library(read_data "${MY_MODS}")
+add_executable(interp interp.f90)
+
+# Set the location of HDF5 libraries
+set(HDF5_DIR "/opt/homebrew/Cellar/hdf5/1.14.3")
+
+# Link with the HDF5 Fortran library
+find_package(HDF5 REQUIRED COMPONENTS Fortran)
+target_link_libraries(interp PRIVATE ${HDF5_Fortran_LIBRARIES})
+target_link_libraries(interp PRIVATE read_data)

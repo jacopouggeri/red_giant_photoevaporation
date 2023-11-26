@@ -1,0 +1,2 @@
+/Users/jacopouggeri/mesasdk/bin/ar qc libread_data.a CMakeFiles/read_data.dir/read_data.f90.o
+/usr/bin/ranlib libread_data.a

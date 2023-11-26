@@ -1,0 +1,706 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Darwin - 23.1.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:179 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+      Compiler: /Users/jacopouggeri/mesasdk/bin/gfortran 
+      Build flags: 
+      Id flags: -v 
+      
+      The output was:
+      0
+      Driving: /Users/jacopouggeri/mesasdk/bin/gfortran.exec -ffpe-summary=none -I/Users/jacopouggeri/mesasdk/include -I/Users/jacopouggeri/mesasdk/math-slots/default/include -isystem /Users/jacopouggeri/mesasdk/include -Xlinker -rpath -Xlinker /Users/jacopouggeri/mesasdk -v CMakeFortranCompilerId.F -mmacosx-version-min=14.0.0 -asm_macosx_version_min=14.0 -nodefaultexport -l gfortran
+      Using built-in specs.
+      COLLECT_GCC=/Users/jacopouggeri/mesasdk/bin/gfortran.exec
+      COLLECT_LTO_WRAPPER=/Users/jacopouggeri/mesasdk/bin/../libexec/gcc/aarch64-apple-darwin20/13.1.0/lto-wrapper
+      Target: aarch64-apple-darwin20
+      Configured with: /opt/sdk2-tmp/build/gcc/configure CC=clang CXX=clang++ --build=aarch64-apple-darwin20 --host=aarch64-apple-darwin20 --target=aarch64-apple-darwin20 --prefix=/opt/sdk2-tmp/mesasdk --with-gmp=/opt/sdk2-tmp/mesasdk --with-mpfr=/opt/sdk2-tmp/mesasdk --with-mpc=/opt/sdk2-tmp/mesasdk --enable-languages=c,c++,fortran --disable-multilib --disable-nls --disable-libsanitizer --with-sysroot=/opt/sdk2-tmp/mesasdk/sysroot --without-build-config
+      Thread model: posix
+      Supported LTO compression algorithms: zlib
+      gcc version 13.1.0 (GCC) 
+      COLLECT_GCC_OPTIONS='-ffpe-summary=none' '-I' '/Users/jacopouggeri/mesasdk/include' '-I' '/Users/jacopouggeri/mesasdk/math-slots/default/include' '-isystem' '/Users/jacopouggeri/mesasdk/include' '-v' '-mmacosx-version-min=14.0.0' '-asm_macosx_version_min=14.0' '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'a-'
+       /Users/jacopouggeri/mesasdk/bin/../libexec/gcc/aarch64-apple-darwin20/13.1.0/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/var/folders/g9/g779hy893t9829kq5fb811hw0000gn/T//ccM7Xb4B.f90 -quiet -v -I /Users/jacopouggeri/mesasdk/include -I /Users/jacopouggeri/mesasdk/math-slots/default/include -iprefix /Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/ -isysroot /Users/jacopouggeri/mesasdk/bin/../sysroot -D__DYNAMIC__ -isystem /Users/jacopouggeri/mesasdk/include CMakeFortranCompilerId.F -fPIC -quiet -dumpdir a- -dumpbase CMakeFortranCompilerId.F -dumpbase-ext .F -mmacosx-version-min=14.0.0 -mlittle-endian -mabi=lp64 -version -ffpe-summary=none -fintrinsic-modules-path /Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/finclude -o /var/folders/g9/g779hy893t9829kq5fb811hw0000gn/T//cc8jHEds.s
+      GNU Fortran (GCC) version 13.1.0 (aarch64-apple-darwin20)
+      	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version none
+      GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+      ignoring nonexistent directory "/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/../../../../aarch64-apple-darwin20/include"
+      ignoring duplicate directory "/Users/jacopouggeri/mesasdk/bin/../lib/gcc/../../lib/gcc/aarch64-apple-darwin20/13.1.0/include"
+      ignoring nonexistent directory "/Users/jacopouggeri/mesasdk/bin/../sysroot/usr/local/include"
+      ignoring duplicate directory "/Users/jacopouggeri/mesasdk/bin/../lib/gcc/../../lib/gcc/aarch64-apple-darwin20/13.1.0/include-fixed"
+      ignoring nonexistent directory "/Users/jacopouggeri/mesasdk/bin/../lib/gcc/../../lib/gcc/aarch64-apple-darwin20/13.1.0/../../../../aarch64-apple-darwin20/include"
+      ignoring duplicate directory "/Users/jacopouggeri/mesasdk/include"
+      #include "..." search starts here:
+      #include <...> search starts here:
+       /Users/jacopouggeri/mesasdk/include
+       /Users/jacopouggeri/mesasdk/math-slots/default/include
+       /Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/finclude
+       /Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/include
+       /Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/include-fixed
+       /Users/jacopouggeri/mesasdk/bin/../sysroot/usr/include
+      End of search list.
+      COLLECT_GCC_OPTIONS='-ffpe-summary=none' '-I' '/Users/jacopouggeri/mesasdk/include' '-I' '/Users/jacopouggeri/mesasdk/math-slots/default/include' '-isystem' '/Users/jacopouggeri/mesasdk/include' '-v' '-mmacosx-version-min=14.0.0'  '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'a-'
+       as -arch arm64 -v -I /Users/jacopouggeri/mesasdk/include -I /Users/jacopouggeri/mesasdk/math-slots/default/include -mmacosx-version-min=14.0 -o /var/folders/g9/g779hy893t9829kq5fb811hw0000gn/T//cciBSS5N.o /var/folders/g9/g779hy893t9829kq5fb811hw0000gn/T//cc8jHEds.s
+      Apple clang version 15.0.0 (clang-1500.0.40.1)
+      Target: arm64-apple-darwin23.1.0
+      Thread model: posix
+      InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+       "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple arm64-apple-macosx14.0.0 -filetype obj -main-file-name cc8jHEds.s -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -I /Users/jacopouggeri/mesasdk/include -I /Users/jacopouggeri/mesasdk/math-slots/default/include -fdebug-compilation-dir=/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/3.27.8/CompilerIdFortran -dwarf-debug-producer "Apple clang version 15.0.0 (clang-1500.0.40.1)" -I /Users/jacopouggeri/mesasdk/include -I /Users/jacopouggeri/mesasdk/math-slots/default/include -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -disable-aligned-alloc-awareness=1 -o /var/folders/g9/g779hy893t9829kq5fb811hw0000gn/T//cciBSS5N.o /var/folders/g9/g779hy893t9829kq5fb811hw0000gn/T//cc8jHEds.s
+      Reading specs from /Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/../../../libgfortran.spec
+      rename spec lib to liborig
+      COLLECT_GCC_OPTIONS='-ffpe-summary=none' '-I' '/Users/jacopouggeri/mesasdk/include' '-I' '/Users/jacopouggeri/mesasdk/math-slots/default/include' '-isystem' '/Users/jacopouggeri/mesasdk/include' '-v' '-mmacosx-version-min=14.0.0'  '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'a-'
+      COMPILER_PATH=/Users/jacopouggeri/mesasdk/bin/../libexec/gcc/aarch64-apple-darwin20/13.1.0/:/Users/jacopouggeri/mesasdk/bin/../libexec/gcc/
+      LIBRARY_PATH=/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/:/Users/jacopouggeri/mesasdk/bin/../lib/gcc/:/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/../../../
+      COLLECT_GCC_OPTIONS='-ffpe-summary=none' '-I' '/Users/jacopouggeri/mesasdk/include' '-I' '/Users/jacopouggeri/mesasdk/math-slots/default/include' '-isystem' '/Users/jacopouggeri/mesasdk/include' '-v' '-mmacosx-version-min=14.0.0'  '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'a.'
+       /Users/jacopouggeri/mesasdk/bin/../libexec/gcc/aarch64-apple-darwin20/13.1.0/collect2 -syslibroot /Users/jacopouggeri/mesasdk/bin/../sysroot/ -dynamic -arch arm64 -platform_version macos 14.0.0 0.0 -o a.out -L/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0 -L/Users/jacopouggeri/mesasdk/bin/../lib/gcc -L/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/../../.. -rpath /Users/jacopouggeri/mesasdk /var/folders/g9/g779hy893t9829kq5fb811hw0000gn/T//cciBSS5N.o -lgfortran -lemutls_w -lgcc -lquadmath -lemutls_w -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /Users/jacopouggeri/mesasdk/lib/gcc/aarch64-apple-darwin20/13.1.0 -rpath /Users/jacopouggeri/mesasdk/lib/gcc -rpath /Users/jacopouggeri/mesasdk/lib
+      ld: warning: ignoring duplicate libraries: '-lemutls_w', '-lgcc'
+      
+      
+      Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+      
+      The Fortran compiler identification is GNU, found in:
+        /Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/3.27.8/CompilerIdFortran/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeTestFortranCompiler.cmake:20 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting Fortran compiler ABI info"
+    directories:
+      source: "/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-fJoHO2"
+      binary: "/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-fJoHO2"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "CMAKE_Fortran_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-fJoHO2'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.8/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3f094/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3f094.dir/build.make CMakeFiles/cmTC_3f094.dir/build
+        Building Fortran object CMakeFiles/cmTC_3f094.dir/CMakeFortranCompilerABI.F90.o
+        /Users/jacopouggeri/mesasdk/bin/gfortran   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk   -v -Wl,-v -c /opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeFortranCompilerABI.F90 -o CMakeFiles/cmTC_3f094.dir/CMakeFortranCompilerABI.F90.o
+        Using built-in specs.
+        COLLECT_GCC=/Users/jacopouggeri/mesasdk/bin/gfortran.exec
+        Target: aarch64-apple-darwin20
+        Configured with: /opt/sdk2-tmp/build/gcc/configure CC=clang CXX=clang++ --build=aarch64-apple-darwin20 --host=aarch64-apple-darwin20 --target=aarch64-apple-darwin20 --prefix=/opt/sdk2-tmp/mesasdk --with-gmp=/opt/sdk2-tmp/mesasdk --with-mpfr=/opt/sdk2-tmp/mesasdk --with-mpc=/opt/sdk2-tmp/mesasdk --enable-languages=c,c++,fortran --disable-multilib --disable-nls --disable-libsanitizer --with-sysroot=/opt/sdk2-tmp/mesasdk/sysroot --without-build-config
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-ffpe-summary=none' '-I' '/Users/jacopouggeri/mesasdk/include' '-I' '/Users/jacopouggeri/mesasdk/math-slots/default/include' '-isystem' '/Users/jacopouggeri/mesasdk/include' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk' '-v' '-c' '-o' 'CMakeFiles/cmTC_3f094.dir/CMakeFortranCompilerABI.F90.o' '-mmacosx-version-min=14.0.0' '-asm_macosx_version_min=14.0' '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_3f094.dir/'
+         /Users/jacopouggeri/mesasdk/bin/../libexec/gcc/aarch64-apple-darwin20/13.1.0/f951 /opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeFortranCompilerABI.F90 -cpp=/var/folders/g9/g779hy893t9829kq5fb811hw0000gn/T//ccBMjtUn.f90 -quiet -v -I /Users/jacopouggeri/mesasdk/include -I /Users/jacopouggeri/mesasdk/math-slots/default/include -iprefix /Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/ -isysroot /Users/jacopouggeri/mesasdk/bin/../sysroot -D__DYNAMIC__ -isystem /Users/jacopouggeri/mesasdk/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk /opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeFortranCompilerABI.F90 -fPIC -quiet -dumpdir CMakeFiles/cmTC_3f094.dir/ -dumpbase CMakeFortranCompilerABI.F90.F90 -dumpbase-ext .F90 -mmacosx-version-min=14.0.0 -mlittle-endian -mabi=lp64 -version -ffpe-summary=none -fintrinsic-modules-path /Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/finclude -o /var/folders/g9/g779hy893t9829kq5fb811hw0000gn/T//ccojztDg.s
+        GNU Fortran (GCC) version 13.1.0 (aarch64-apple-darwin20)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/../../../../aarch64-apple-darwin20/include"
+        ignoring duplicate directory "/Users/jacopouggeri/mesasdk/bin/../lib/gcc/../../lib/gcc/aarch64-apple-darwin20/13.1.0/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/local/include"
+        ignoring duplicate directory "/Users/jacopouggeri/mesasdk/bin/../lib/gcc/../../lib/gcc/aarch64-apple-darwin20/13.1.0/include-fixed"
+        ignoring nonexistent directory "/Users/jacopouggeri/mesasdk/bin/../lib/gcc/../../lib/gcc/aarch64-apple-darwin20/13.1.0/../../../../aarch64-apple-darwin20/include"
+        ignoring duplicate directory "/Users/jacopouggeri/mesasdk/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/jacopouggeri/mesasdk/include
+         /Users/jacopouggeri/mesasdk/math-slots/default/include
+         /Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/finclude
+         /Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/include
+         /Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/include-fixed
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include
+        End of search list.
+        COLLECT_GCC_OPTIONS='-ffpe-summary=none' '-I' '/Users/jacopouggeri/mesasdk/include' '-I' '/Users/jacopouggeri/mesasdk/math-slots/default/include' '-isystem' '/Users/jacopouggeri/mesasdk/include' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk' '-v' '-c' '-o' 'CMakeFiles/cmTC_3f094.dir/CMakeFortranCompilerABI.F90.o' '-mmacosx-version-min=14.0.0'  '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_3f094.dir/'
+         as -arch arm64 -v -I /Users/jacopouggeri/mesasdk/include -I /Users/jacopouggeri/mesasdk/math-slots/default/include -mmacosx-version-min=14.0 -o CMakeFiles/cmTC_3f094.dir/CMakeFortranCompilerABI.F90.o /var/folders/g9/g779hy893t9829kq5fb811hw0000gn/T//ccojztDg.s
+        Apple clang version 15.0.0 (clang-1500.0.40.1)
+        Target: arm64-apple-darwin23.1.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple arm64-apple-macosx14.0.0 -filetype obj -main-file-name ccojztDg.s -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -I /Users/jacopouggeri/mesasdk/include -I /Users/jacopouggeri/mesasdk/math-slots/default/include -fdebug-compilation-dir=/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-fJoHO2 -dwarf-debug-producer "Apple clang version 15.0.0 (clang-1500.0.40.1)" -I /Users/jacopouggeri/mesasdk/include -I /Users/jacopouggeri/mesasdk/math-slots/default/include -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_3f094.dir/CMakeFortranCompilerABI.F90.o /var/folders/g9/g779hy893t9829kq5fb811hw0000gn/T//ccojztDg.s
+        COMPILER_PATH=/Users/jacopouggeri/mesasdk/bin/../libexec/gcc/aarch64-apple-darwin20/13.1.0/:/Users/jacopouggeri/mesasdk/bin/../libexec/gcc/
+        LIBRARY_PATH=/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/:/Users/jacopouggeri/mesasdk/bin/../lib/gcc/:/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-ffpe-summary=none' '-I' '/Users/jacopouggeri/mesasdk/include' '-I' '/Users/jacopouggeri/mesasdk/math-slots/default/include' '-isystem' '/Users/jacopouggeri/mesasdk/include' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk' '-v' '-c' '-o' 'CMakeFiles/cmTC_3f094.dir/CMakeFortranCompilerABI.F90.o' '-mmacosx-version-min=14.0.0'  '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_3f094.dir/CMakeFortranCompilerABI.F90.'
+        Linking Fortran executable cmTC_3f094
+        /opt/homebrew/Cellar/cmake/3.27.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f094.dir/link.txt --verbose=1
+        /Users/jacopouggeri/mesasdk/bin/gfortran  -v -Wl,-v  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk CMakeFiles/cmTC_3f094.dir/CMakeFortranCompilerABI.F90.o -o cmTC_3f094 
+        Driving: /Users/jacopouggeri/mesasdk/bin/gfortran.exec -ffpe-summary=none -I/Users/jacopouggeri/mesasdk/include -I/Users/jacopouggeri/mesasdk/math-slots/default/include -isystem /Users/jacopouggeri/mesasdk/include -Xlinker -rpath -Xlinker /Users/jacopouggeri/mesasdk -v -Wl,-v -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk CMakeFiles/cmTC_3f094.dir/CMakeFortranCompilerABI.F90.o -o cmTC_3f094 -mmacosx-version-min=14.0.0 -asm_macosx_version_min=14.0 -nodefaultexport -l gfortran
+        Using built-in specs.
+        COLLECT_GCC=/Users/jacopouggeri/mesasdk/bin/gfortran.exec
+        COLLECT_LTO_WRAPPER=/Users/jacopouggeri/mesasdk/bin/../libexec/gcc/aarch64-apple-darwin20/13.1.0/lto-wrapper
+        Target: aarch64-apple-darwin20
+        Configured with: /opt/sdk2-tmp/build/gcc/configure CC=clang CXX=clang++ --build=aarch64-apple-darwin20 --host=aarch64-apple-darwin20 --target=aarch64-apple-darwin20 --prefix=/opt/sdk2-tmp/mesasdk --with-gmp=/opt/sdk2-tmp/mesasdk --with-mpfr=/opt/sdk2-tmp/mesasdk --with-mpc=/opt/sdk2-tmp/mesasdk --enable-languages=c,c++,fortran --disable-multilib --disable-nls --disable-libsanitizer --with-sysroot=/opt/sdk2-tmp/mesasdk/sysroot --without-build-config
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        Reading specs from /Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/../../../libgfortran.spec
+        rename spec lib to liborig
+        COLLECT_GCC_OPTIONS='-ffpe-summary=none' '-I' '/Users/jacopouggeri/mesasdk/include' '-I' '/Users/jacopouggeri/mesasdk/math-slots/default/include' '-isystem' '/Users/jacopouggeri/mesasdk/include' '-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk' '-o' 'cmTC_3f094' '-mmacosx-version-min=14.0.0' '-asm_macosx_version_min=14.0' '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_3f094-'
+        COMPILER_PATH=/Users/jacopouggeri/mesasdk/bin/../libexec/gcc/aarch64-apple-darwin20/13.1.0/:/Users/jacopouggeri/mesasdk/bin/../libexec/gcc/
+        LIBRARY_PATH=/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/:/Users/jacopouggeri/mesasdk/bin/../lib/gcc/:/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-ffpe-summary=none' '-I' '/Users/jacopouggeri/mesasdk/include' '-I' '/Users/jacopouggeri/mesasdk/math-slots/default/include' '-isystem' '/Users/jacopouggeri/mesasdk/include' '-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk' '-o' 'cmTC_3f094' '-mmacosx-version-min=14.0.0' '-asm_macosx_version_min=14.0' '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_3f094.'
+         /Users/jacopouggeri/mesasdk/bin/../libexec/gcc/aarch64-apple-darwin20/13.1.0/collect2 -dynamic -arch arm64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -platform_version macos 14.0.0 0.0 -o cmTC_3f094 -L/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0 -L/Users/jacopouggeri/mesasdk/bin/../lib/gcc -L/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/../../.. -rpath /Users/jacopouggeri/mesasdk -v CMakeFiles/cmTC_3f094.dir/CMakeFortranCompilerABI.F90.o -lgfortran -lemutls_w -lgcc -lquadmath -lemutls_w -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /Users/jacopouggeri/mesasdk/lib/gcc/aarch64-apple-darwin20/13.1.0 -rpath /Users/jacopouggeri/mesasdk/lib/gcc -rpath /Users/jacopouggeri/mesasdk/lib
+        collect2 version 13.1.0
+        /usr/bin/ld -dynamic -arch arm64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -platform_version macos 14.0.0 0.0 -o cmTC_3f094 -L/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0 -L/Users/jacopouggeri/mesasdk/bin/../lib/gcc -L/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/../../.. -rpath /Users/jacopouggeri/mesasdk -v CMakeFiles/cmTC_3f094.dir/CMakeFortranCompilerABI.F90.o -lgfortran -lemutls_w -lgcc -lquadmath -lemutls_w -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /Users/jacopouggeri/mesasdk/lib/gcc/aarch64-apple-darwin20/13.1.0 -rpath /Users/jacopouggeri/mesasdk/lib/gcc -rpath /Users/jacopouggeri/mesasdk/lib
+        @(#)PROGRAM:ld  PROJECT:dyld-1015.7
+        BUILD 18:48:48 Aug 22 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.3)
+        Library search paths:
+        	/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0
+        	/Users/jacopouggeri/mesasdk/bin/../lib/gcc
+        	/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/../../..
+        Framework search paths:
+        ld: warning: ignoring duplicate libraries: '-lemutls_w', '-lgcc'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeTestFortranCompiler.cmake:20 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed Fortran implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Users/jacopouggeri/mesasdk/include]
+          add: [/Users/jacopouggeri/mesasdk/math-slots/default/include]
+          add: [/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/finclude]
+          add: [/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/include]
+          add: [/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/include-fixed]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include]
+        end of search list found
+        collapse include dir [/Users/jacopouggeri/mesasdk/include] ==> [/Users/jacopouggeri/mesasdk/include]
+        collapse include dir [/Users/jacopouggeri/mesasdk/math-slots/default/include] ==> [/Users/jacopouggeri/mesasdk/math-slots/default/include]
+        collapse include dir [/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/finclude] ==> [/Users/jacopouggeri/mesasdk/lib/gcc/aarch64-apple-darwin20/13.1.0/finclude]
+        collapse include dir [/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/include] ==> [/Users/jacopouggeri/mesasdk/lib/gcc/aarch64-apple-darwin20/13.1.0/include]
+        collapse include dir [/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/include-fixed] ==> [/Users/jacopouggeri/mesasdk/lib/gcc/aarch64-apple-darwin20/13.1.0/include-fixed]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include]
+        implicit include dirs: [/Users/jacopouggeri/mesasdk/include;/Users/jacopouggeri/mesasdk/math-slots/default/include;/Users/jacopouggeri/mesasdk/lib/gcc/aarch64-apple-darwin20/13.1.0/finclude;/Users/jacopouggeri/mesasdk/lib/gcc/aarch64-apple-darwin20/13.1.0/include;/Users/jacopouggeri/mesasdk/lib/gcc/aarch64-apple-darwin20/13.1.0/include-fixed;/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeTestFortranCompiler.cmake:20 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed Fortran implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-fJoHO2']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.8/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3f094/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3f094.dir/build.make CMakeFiles/cmTC_3f094.dir/build]
+        ignore line: [Building Fortran object CMakeFiles/cmTC_3f094.dir/CMakeFortranCompilerABI.F90.o]
+        ignore line: [/Users/jacopouggeri/mesasdk/bin/gfortran   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk   -v -Wl -v -c /opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeFortranCompilerABI.F90 -o CMakeFiles/cmTC_3f094.dir/CMakeFortranCompilerABI.F90.o]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/Users/jacopouggeri/mesasdk/bin/gfortran.exec]
+        ignore line: [Target: aarch64-apple-darwin20]
+        ignore line: [Configured with: /opt/sdk2-tmp/build/gcc/configure CC=clang CXX=clang++ --build=aarch64-apple-darwin20 --host=aarch64-apple-darwin20 --target=aarch64-apple-darwin20 --prefix=/opt/sdk2-tmp/mesasdk --with-gmp=/opt/sdk2-tmp/mesasdk --with-mpfr=/opt/sdk2-tmp/mesasdk --with-mpc=/opt/sdk2-tmp/mesasdk --enable-languages=c c++ fortran --disable-multilib --disable-nls --disable-libsanitizer --with-sysroot=/opt/sdk2-tmp/mesasdk/sysroot --without-build-config]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-ffpe-summary=none' '-I' '/Users/jacopouggeri/mesasdk/include' '-I' '/Users/jacopouggeri/mesasdk/math-slots/default/include' '-isystem' '/Users/jacopouggeri/mesasdk/include' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk' '-v' '-c' '-o' 'CMakeFiles/cmTC_3f094.dir/CMakeFortranCompilerABI.F90.o' '-mmacosx-version-min=14.0.0' '-asm_macosx_version_min=14.0' '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_3f094.dir/']
+        ignore line: [ /Users/jacopouggeri/mesasdk/bin/../libexec/gcc/aarch64-apple-darwin20/13.1.0/f951 /opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeFortranCompilerABI.F90 -cpp=/var/folders/g9/g779hy893t9829kq5fb811hw0000gn/T//ccBMjtUn.f90 -quiet -v -I /Users/jacopouggeri/mesasdk/include -I /Users/jacopouggeri/mesasdk/math-slots/default/include -iprefix /Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/ -isysroot /Users/jacopouggeri/mesasdk/bin/../sysroot -D__DYNAMIC__ -isystem /Users/jacopouggeri/mesasdk/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk /opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/CMakeFortranCompilerABI.F90 -fPIC -quiet -dumpdir CMakeFiles/cmTC_3f094.dir/ -dumpbase CMakeFortranCompilerABI.F90.F90 -dumpbase-ext .F90 -mmacosx-version-min=14.0.0 -mlittle-endian -mabi=lp64 -version -ffpe-summary=none -fintrinsic-modules-path /Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/finclude -o /var/folders/g9/g779hy893t9829kq5fb811hw0000gn/T//ccojztDg.s]
+        ignore line: [GNU Fortran (GCC) version 13.1.0 (aarch64-apple-darwin20)]
+        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/../../../../aarch64-apple-darwin20/include"]
+        ignore line: [ignoring duplicate directory "/Users/jacopouggeri/mesasdk/bin/../lib/gcc/../../lib/gcc/aarch64-apple-darwin20/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/Users/jacopouggeri/mesasdk/bin/../lib/gcc/../../lib/gcc/aarch64-apple-darwin20/13.1.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/Users/jacopouggeri/mesasdk/bin/../lib/gcc/../../lib/gcc/aarch64-apple-darwin20/13.1.0/../../../../aarch64-apple-darwin20/include"]
+        ignore line: [ignoring duplicate directory "/Users/jacopouggeri/mesasdk/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/jacopouggeri/mesasdk/include]
+        ignore line: [ /Users/jacopouggeri/mesasdk/math-slots/default/include]
+        ignore line: [ /Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/finclude]
+        ignore line: [ /Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/include]
+        ignore line: [ /Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/include-fixed]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [COLLECT_GCC_OPTIONS='-ffpe-summary=none' '-I' '/Users/jacopouggeri/mesasdk/include' '-I' '/Users/jacopouggeri/mesasdk/math-slots/default/include' '-isystem' '/Users/jacopouggeri/mesasdk/include' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk' '-v' '-c' '-o' 'CMakeFiles/cmTC_3f094.dir/CMakeFortranCompilerABI.F90.o' '-mmacosx-version-min=14.0.0'  '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_3f094.dir/']
+        ignore line: [ as -arch arm64 -v -I /Users/jacopouggeri/mesasdk/include -I /Users/jacopouggeri/mesasdk/math-slots/default/include -mmacosx-version-min=14.0 -o CMakeFiles/cmTC_3f094.dir/CMakeFortranCompilerABI.F90.o /var/folders/g9/g779hy893t9829kq5fb811hw0000gn/T//ccojztDg.s]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.0.40.1)]
+        ignore line: [Target: arm64-apple-darwin23.1.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple arm64-apple-macosx14.0.0 -filetype obj -main-file-name ccojztDg.s -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -I /Users/jacopouggeri/mesasdk/include -I /Users/jacopouggeri/mesasdk/math-slots/default/include -fdebug-compilation-dir=/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-fJoHO2 -dwarf-debug-producer "Apple clang version 15.0.0 (clang-1500.0.40.1)" -I /Users/jacopouggeri/mesasdk/include -I /Users/jacopouggeri/mesasdk/math-slots/default/include -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_3f094.dir/CMakeFortranCompilerABI.F90.o /var/folders/g9/g779hy893t9829kq5fb811hw0000gn/T//ccojztDg.s]
+        ignore line: [COMPILER_PATH=/Users/jacopouggeri/mesasdk/bin/../libexec/gcc/aarch64-apple-darwin20/13.1.0/:/Users/jacopouggeri/mesasdk/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/:/Users/jacopouggeri/mesasdk/bin/../lib/gcc/:/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-ffpe-summary=none' '-I' '/Users/jacopouggeri/mesasdk/include' '-I' '/Users/jacopouggeri/mesasdk/math-slots/default/include' '-isystem' '/Users/jacopouggeri/mesasdk/include' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk' '-v' '-c' '-o' 'CMakeFiles/cmTC_3f094.dir/CMakeFortranCompilerABI.F90.o' '-mmacosx-version-min=14.0.0'  '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_3f094.dir/CMakeFortranCompilerABI.F90.']
+        ignore line: [Linking Fortran executable cmTC_3f094]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.27.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f094.dir/link.txt --verbose=1]
+        ignore line: [/Users/jacopouggeri/mesasdk/bin/gfortran  -v -Wl -v  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk CMakeFiles/cmTC_3f094.dir/CMakeFortranCompilerABI.F90.o -o cmTC_3f094 ]
+        ignore line: [Driving: /Users/jacopouggeri/mesasdk/bin/gfortran.exec -ffpe-summary=none -I/Users/jacopouggeri/mesasdk/include -I/Users/jacopouggeri/mesasdk/math-slots/default/include -isystem /Users/jacopouggeri/mesasdk/include -Xlinker -rpath -Xlinker /Users/jacopouggeri/mesasdk -v -Wl -v -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk CMakeFiles/cmTC_3f094.dir/CMakeFortranCompilerABI.F90.o -o cmTC_3f094 -mmacosx-version-min=14.0.0 -asm_macosx_version_min=14.0 -nodefaultexport -l gfortran]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/Users/jacopouggeri/mesasdk/bin/gfortran.exec]
+        ignore line: [COLLECT_LTO_WRAPPER=/Users/jacopouggeri/mesasdk/bin/../libexec/gcc/aarch64-apple-darwin20/13.1.0/lto-wrapper]
+        ignore line: [Target: aarch64-apple-darwin20]
+        ignore line: [Configured with: /opt/sdk2-tmp/build/gcc/configure CC=clang CXX=clang++ --build=aarch64-apple-darwin20 --host=aarch64-apple-darwin20 --target=aarch64-apple-darwin20 --prefix=/opt/sdk2-tmp/mesasdk --with-gmp=/opt/sdk2-tmp/mesasdk --with-mpfr=/opt/sdk2-tmp/mesasdk --with-mpc=/opt/sdk2-tmp/mesasdk --enable-languages=c c++ fortran --disable-multilib --disable-nls --disable-libsanitizer --with-sysroot=/opt/sdk2-tmp/mesasdk/sysroot --without-build-config]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [Reading specs from /Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/../../../libgfortran.spec]
+        ignore line: [rename spec lib to liborig]
+        ignore line: [COLLECT_GCC_OPTIONS='-ffpe-summary=none' '-I' '/Users/jacopouggeri/mesasdk/include' '-I' '/Users/jacopouggeri/mesasdk/math-slots/default/include' '-isystem' '/Users/jacopouggeri/mesasdk/include' '-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk' '-o' 'cmTC_3f094' '-mmacosx-version-min=14.0.0' '-asm_macosx_version_min=14.0' '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_3f094-']
+        ignore line: [COMPILER_PATH=/Users/jacopouggeri/mesasdk/bin/../libexec/gcc/aarch64-apple-darwin20/13.1.0/:/Users/jacopouggeri/mesasdk/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/:/Users/jacopouggeri/mesasdk/bin/../lib/gcc/:/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-ffpe-summary=none' '-I' '/Users/jacopouggeri/mesasdk/include' '-I' '/Users/jacopouggeri/mesasdk/math-slots/default/include' '-isystem' '/Users/jacopouggeri/mesasdk/include' '-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk' '-o' 'cmTC_3f094' '-mmacosx-version-min=14.0.0' '-asm_macosx_version_min=14.0' '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_3f094.']
+        link line: [ /Users/jacopouggeri/mesasdk/bin/../libexec/gcc/aarch64-apple-darwin20/13.1.0/collect2 -dynamic -arch arm64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -platform_version macos 14.0.0 0.0 -o cmTC_3f094 -L/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0 -L/Users/jacopouggeri/mesasdk/bin/../lib/gcc -L/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/../../.. -rpath /Users/jacopouggeri/mesasdk -v CMakeFiles/cmTC_3f094.dir/CMakeFortranCompilerABI.F90.o -lgfortran -lemutls_w -lgcc -lquadmath -lemutls_w -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /Users/jacopouggeri/mesasdk/lib/gcc/aarch64-apple-darwin20/13.1.0 -rpath /Users/jacopouggeri/mesasdk/lib/gcc -rpath /Users/jacopouggeri/mesasdk/lib]
+          arg [/Users/jacopouggeri/mesasdk/bin/../libexec/gcc/aarch64-apple-darwin20/13.1.0/collect2] ==> ignore
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [14.0.0] ==> ignore
+          arg [0.0] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_3f094] ==> ignore
+          arg [-L/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0] ==> dir [/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0]
+          arg [-L/Users/jacopouggeri/mesasdk/bin/../lib/gcc] ==> dir [/Users/jacopouggeri/mesasdk/bin/../lib/gcc]
+          arg [-L/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/../../..] ==> dir [/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/../../..]
+          arg [-rpath] ==> ignore
+          arg [/Users/jacopouggeri/mesasdk] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_3f094.dir/CMakeFortranCompilerABI.F90.o] ==> ignore
+          arg [-lgfortran] ==> lib [gfortran]
+          arg [-lemutls_w] ==> lib [emutls_w]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lquadmath] ==> lib [quadmath]
+          arg [-lemutls_w] ==> lib [emutls_w]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lSystem] ==> lib [System]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-no_compact_unwind] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [@loader_path] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/Users/jacopouggeri/mesasdk/lib/gcc/aarch64-apple-darwin20/13.1.0] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/Users/jacopouggeri/mesasdk/lib/gcc] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/Users/jacopouggeri/mesasdk/lib] ==> ignore
+        Library search paths: [;/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0;/Users/jacopouggeri/mesasdk/bin/../lib/gcc;/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/../../..]
+        remove lib [System]
+        collapse library dir [/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0] ==> [/Users/jacopouggeri/mesasdk/lib/gcc/aarch64-apple-darwin20/13.1.0]
+        collapse library dir [/Users/jacopouggeri/mesasdk/bin/../lib/gcc] ==> [/Users/jacopouggeri/mesasdk/lib/gcc]
+        collapse library dir [/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/../../..] ==> [/Users/jacopouggeri/mesasdk/lib]
+        collapse library dir [/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0] ==> [/Users/jacopouggeri/mesasdk/lib/gcc/aarch64-apple-darwin20/13.1.0]
+        collapse library dir [/Users/jacopouggeri/mesasdk/bin/../lib/gcc] ==> [/Users/jacopouggeri/mesasdk/lib/gcc]
+        collapse library dir [/Users/jacopouggeri/mesasdk/bin/../lib/gcc/aarch64-apple-darwin20/13.1.0/../../..] ==> [/Users/jacopouggeri/mesasdk/lib]
+        implicit libs: [gfortran;emutls_w;gcc;quadmath;emutls_w;gcc;gcc]
+        implicit objs: []
+        implicit dirs: [/Users/jacopouggeri/mesasdk/lib/gcc/aarch64-apple-darwin20/13.1.0;/Users/jacopouggeri/mesasdk/lib/gcc;/Users/jacopouggeri/mesasdk/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindHDF5.cmake:318 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindHDF5.cmake:620 (_HDF5_test_regular_compiler_Fortran)"
+      - "CMakeLists.txt:15 (find_package)"
+    directories:
+      source: "/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-hqMB0B"
+      binary: "/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-hqMB0B"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HDF5_Fortran_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-hqMB0B'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.8/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5b83c/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5b83c.dir/build.make CMakeFiles/cmTC_5b83c.dir/build
+        Building Fortran object CMakeFiles/cmTC_5b83c.dir/cmake_hdf5_test.f90.o
+        /Users/jacopouggeri/mesasdk/bin/gfortran   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -c /Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/hdf5/cmake_hdf5_test.f90 -o CMakeFiles/cmTC_5b83c.dir/cmake_hdf5_test.f90.o
+        Linking Fortran executable cmTC_5b83c
+        /opt/homebrew/Cellar/cmake/3.27.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b83c.dir/link.txt --verbose=1
+        /Users/jacopouggeri/mesasdk/bin/gfortran  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk CMakeFiles/cmTC_5b83c.dir/cmake_hdf5_test.f90.o -o cmTC_5b83c 
+        ld: warning: ignoring duplicate libraries: '-lemutls_w', '-lgcc'
+        ld: Undefined symbols:
+          ___h5lib_MOD_h5close_f, referenced from:
+              _MAIN__ in cmake_hdf5_test.f90.o
+          ___h5lib_MOD_h5open_f, referenced from:
+              _MAIN__ in cmake_hdf5_test.f90.o
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [cmTC_5b83c] Error 1
+        make: *** [cmTC_5b83c/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindHDF5.cmake:318 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindHDF5.cmake:620 (_HDF5_test_regular_compiler_Fortran)"
+      - "CMakeLists.txt:15 (find_package)"
+    directories:
+      source: "/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-SXmQo5"
+      binary: "/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-SXmQo5"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HDF5_Fortran_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-SXmQo5'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.8/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6a29f/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6a29f.dir/build.make CMakeFiles/cmTC_6a29f.dir/build
+        Building Fortran object CMakeFiles/cmTC_6a29f.dir/cmake_hdf5_test.f90.o
+        /Users/jacopouggeri/mesasdk/bin/gfortran   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -c /Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/hdf5/cmake_hdf5_test.f90 -o CMakeFiles/cmTC_6a29f.dir/cmake_hdf5_test.f90.o
+        Linking Fortran executable cmTC_6a29f
+        /opt/homebrew/Cellar/cmake/3.27.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a29f.dir/link.txt --verbose=1
+        /Users/jacopouggeri/mesasdk/bin/gfortran  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk CMakeFiles/cmTC_6a29f.dir/cmake_hdf5_test.f90.o -o cmTC_6a29f 
+        ld: warning: ignoring duplicate libraries: '-lemutls_w', '-lgcc'
+        ld: Undefined symbols:
+          ___h5lib_MOD_h5close_f, referenced from:
+              _MAIN__ in cmake_hdf5_test.f90.o
+          ___h5lib_MOD_h5open_f, referenced from:
+              _MAIN__ in cmake_hdf5_test.f90.o
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [cmTC_6a29f] Error 1
+        make: *** [cmTC_6a29f/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindHDF5.cmake:318 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindHDF5.cmake:620 (_HDF5_test_regular_compiler_Fortran)"
+      - "CMakeLists.txt:15 (find_package)"
+    directories:
+      source: "/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-Z5VhCs"
+      binary: "/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-Z5VhCs"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HDF5_Fortran_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-Z5VhCs'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.8/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c7412/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c7412.dir/build.make CMakeFiles/cmTC_c7412.dir/build
+        Building Fortran object CMakeFiles/cmTC_c7412.dir/cmake_hdf5_test.f90.o
+        /Users/jacopouggeri/mesasdk/bin/gfortran   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -c /Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/hdf5/cmake_hdf5_test.f90 -o CMakeFiles/cmTC_c7412.dir/cmake_hdf5_test.f90.o
+        Linking Fortran executable cmTC_c7412
+        /opt/homebrew/Cellar/cmake/3.27.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7412.dir/link.txt --verbose=1
+        /Users/jacopouggeri/mesasdk/bin/gfortran  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk CMakeFiles/cmTC_c7412.dir/cmake_hdf5_test.f90.o -o cmTC_c7412 
+        ld: warning: ignoring duplicate libraries: '-lemutls_w', '-lgcc'
+        ld: Undefined symbols:
+          ___h5lib_MOD_h5close_f, referenced from:
+              _MAIN__ in cmake_hdf5_test.f90.o
+          ___h5lib_MOD_h5open_f, referenced from:
+              _MAIN__ in cmake_hdf5_test.f90.o
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [cmTC_c7412] Error 1
+        make: *** [cmTC_c7412/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindHDF5.cmake:318 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindHDF5.cmake:620 (_HDF5_test_regular_compiler_Fortran)"
+      - "CMakeLists.txt:14 (find_package)"
+    directories:
+      source: "/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-R6ky6g"
+      binary: "/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-R6ky6g"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HDF5_Fortran_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-R6ky6g'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.8/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ae845/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ae845.dir/build.make CMakeFiles/cmTC_ae845.dir/build
+        Building Fortran object CMakeFiles/cmTC_ae845.dir/cmake_hdf5_test.f90.o
+        /Users/jacopouggeri/mesasdk/bin/gfortran   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -c /Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/hdf5/cmake_hdf5_test.f90 -o CMakeFiles/cmTC_ae845.dir/cmake_hdf5_test.f90.o
+        Linking Fortran executable cmTC_ae845
+        /opt/homebrew/Cellar/cmake/3.27.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae845.dir/link.txt --verbose=1
+        /Users/jacopouggeri/mesasdk/bin/gfortran  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk CMakeFiles/cmTC_ae845.dir/cmake_hdf5_test.f90.o -o cmTC_ae845 
+        ld: warning: ignoring duplicate libraries: '-lemutls_w', '-lgcc'
+        ld: Undefined symbols:
+          ___h5lib_MOD_h5close_f, referenced from:
+              _MAIN__ in cmake_hdf5_test.f90.o
+          ___h5lib_MOD_h5open_f, referenced from:
+              _MAIN__ in cmake_hdf5_test.f90.o
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [cmTC_ae845] Error 1
+        make: *** [cmTC_ae845/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindHDF5.cmake:318 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindHDF5.cmake:620 (_HDF5_test_regular_compiler_Fortran)"
+      - "CMakeLists.txt:14 (find_package)"
+    directories:
+      source: "/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-dyebxt"
+      binary: "/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-dyebxt"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HDF5_Fortran_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-dyebxt'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.8/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b2577/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b2577.dir/build.make CMakeFiles/cmTC_b2577.dir/build
+        Building Fortran object CMakeFiles/cmTC_b2577.dir/cmake_hdf5_test.f90.o
+        /Users/jacopouggeri/mesasdk/bin/gfortran   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -c /Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/hdf5/cmake_hdf5_test.f90 -o CMakeFiles/cmTC_b2577.dir/cmake_hdf5_test.f90.o
+        Linking Fortran executable cmTC_b2577
+        /opt/homebrew/Cellar/cmake/3.27.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2577.dir/link.txt --verbose=1
+        /Users/jacopouggeri/mesasdk/bin/gfortran  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk CMakeFiles/cmTC_b2577.dir/cmake_hdf5_test.f90.o -o cmTC_b2577 
+        ld: warning: ignoring duplicate libraries: '-lemutls_w', '-lgcc'
+        ld: Undefined symbols:
+          ___h5lib_MOD_h5close_f, referenced from:
+              _MAIN__ in cmake_hdf5_test.f90.o
+          ___h5lib_MOD_h5open_f, referenced from:
+              _MAIN__ in cmake_hdf5_test.f90.o
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [cmTC_b2577] Error 1
+        make: *** [cmTC_b2577/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindHDF5.cmake:318 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindHDF5.cmake:620 (_HDF5_test_regular_compiler_Fortran)"
+      - "src/CMakeLists.txt:9 (find_package)"
+    directories:
+      source: "/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-wuVsRF"
+      binary: "/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-wuVsRF"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HDF5_Fortran_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-wuVsRF'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.8/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_75e61/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_75e61.dir/build.make CMakeFiles/cmTC_75e61.dir/build
+        Building Fortran object CMakeFiles/cmTC_75e61.dir/cmake_hdf5_test.f90.o
+        /Users/jacopouggeri/mesasdk/bin/gfortran   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -c /Users/jacopouggeri/workspace/photoev/interpolation/src/CMakeFiles/hdf5/cmake_hdf5_test.f90 -o CMakeFiles/cmTC_75e61.dir/cmake_hdf5_test.f90.o
+        Linking Fortran executable cmTC_75e61
+        /opt/homebrew/Cellar/cmake/3.27.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75e61.dir/link.txt --verbose=1
+        /Users/jacopouggeri/mesasdk/bin/gfortran  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk CMakeFiles/cmTC_75e61.dir/cmake_hdf5_test.f90.o -o cmTC_75e61 
+        ld: warning: ignoring duplicate libraries: '-lemutls_w', '-lgcc'
+        ld: Undefined symbols:
+          ___h5lib_MOD_h5close_f, referenced from:
+              _MAIN__ in cmake_hdf5_test.f90.o
+          ___h5lib_MOD_h5open_f, referenced from:
+              _MAIN__ in cmake_hdf5_test.f90.o
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [cmTC_75e61] Error 1
+        make: *** [cmTC_75e61/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindHDF5.cmake:318 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindHDF5.cmake:620 (_HDF5_test_regular_compiler_Fortran)"
+      - "src/CMakeLists.txt:9 (find_package)"
+    directories:
+      source: "/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-4upm45"
+      binary: "/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-4upm45"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HDF5_Fortran_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-4upm45'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.8/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_91dae/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_91dae.dir/build.make CMakeFiles/cmTC_91dae.dir/build
+        Building Fortran object CMakeFiles/cmTC_91dae.dir/cmake_hdf5_test.f90.o
+        /Users/jacopouggeri/mesasdk/bin/gfortran   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -c /Users/jacopouggeri/workspace/photoev/interpolation/src/CMakeFiles/hdf5/cmake_hdf5_test.f90 -o CMakeFiles/cmTC_91dae.dir/cmake_hdf5_test.f90.o
+        Linking Fortran executable cmTC_91dae
+        /opt/homebrew/Cellar/cmake/3.27.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91dae.dir/link.txt --verbose=1
+        /Users/jacopouggeri/mesasdk/bin/gfortran  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk CMakeFiles/cmTC_91dae.dir/cmake_hdf5_test.f90.o -o cmTC_91dae 
+        ld: warning: ignoring duplicate libraries: '-lemutls_w', '-lgcc'
+        ld: Undefined symbols:
+          ___h5lib_MOD_h5close_f, referenced from:
+              _MAIN__ in cmake_hdf5_test.f90.o
+          ___h5lib_MOD_h5open_f, referenced from:
+              _MAIN__ in cmake_hdf5_test.f90.o
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [cmTC_91dae] Error 1
+        make: *** [cmTC_91dae/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindHDF5.cmake:318 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindHDF5.cmake:620 (_HDF5_test_regular_compiler_Fortran)"
+      - "src/CMakeLists.txt:9 (find_package)"
+    directories:
+      source: "/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-NSXAGc"
+      binary: "/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-NSXAGc"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HDF5_Fortran_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-NSXAGc'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.8/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1e639/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1e639.dir/build.make CMakeFiles/cmTC_1e639.dir/build
+        Building Fortran object CMakeFiles/cmTC_1e639.dir/cmake_hdf5_test.f90.o
+        /Users/jacopouggeri/mesasdk/bin/gfortran   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -c /Users/jacopouggeri/workspace/photoev/interpolation/src/CMakeFiles/hdf5/cmake_hdf5_test.f90 -o CMakeFiles/cmTC_1e639.dir/cmake_hdf5_test.f90.o
+        Linking Fortran executable cmTC_1e639
+        /opt/homebrew/Cellar/cmake/3.27.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e639.dir/link.txt --verbose=1
+        /Users/jacopouggeri/mesasdk/bin/gfortran  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk CMakeFiles/cmTC_1e639.dir/cmake_hdf5_test.f90.o -o cmTC_1e639 
+        ld: warning: ignoring duplicate libraries: '-lemutls_w', '-lgcc'
+        ld: Undefined symbols:
+          ___h5lib_MOD_h5close_f, referenced from:
+              _MAIN__ in cmake_hdf5_test.f90.o
+          ___h5lib_MOD_h5open_f, referenced from:
+              _MAIN__ in cmake_hdf5_test.f90.o
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [cmTC_1e639] Error 1
+        make: *** [cmTC_1e639/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindHDF5.cmake:318 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.8/share/cmake/Modules/FindHDF5.cmake:620 (_HDF5_test_regular_compiler_Fortran)"
+      - "src/CMakeLists.txt:9 (find_package)"
+    directories:
+      source: "/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-cOBvLn"
+      binary: "/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-cOBvLn"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HDF5_Fortran_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/jacopouggeri/workspace/photoev/interpolation/CMakeFiles/CMakeScratch/TryCompile-cOBvLn'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.8/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d4cc8/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d4cc8.dir/build.make CMakeFiles/cmTC_d4cc8.dir/build
+        Building Fortran object CMakeFiles/cmTC_d4cc8.dir/cmake_hdf5_test.f90.o
+        /Users/jacopouggeri/mesasdk/bin/gfortran   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -c /Users/jacopouggeri/workspace/photoev/interpolation/src/CMakeFiles/hdf5/cmake_hdf5_test.f90 -o CMakeFiles/cmTC_d4cc8.dir/cmake_hdf5_test.f90.o
+        Linking Fortran executable cmTC_d4cc8
+        /opt/homebrew/Cellar/cmake/3.27.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4cc8.dir/link.txt --verbose=1
+        /Users/jacopouggeri/mesasdk/bin/gfortran  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk CMakeFiles/cmTC_d4cc8.dir/cmake_hdf5_test.f90.o -o cmTC_d4cc8 
+        ld: warning: ignoring duplicate libraries: '-lemutls_w', '-lgcc'
+        ld: Undefined symbols:
+          ___h5lib_MOD_h5close_f, referenced from:
+              _MAIN__ in cmake_hdf5_test.f90.o
+          ___h5lib_MOD_h5open_f, referenced from:
+              _MAIN__ in cmake_hdf5_test.f90.o
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [cmTC_d4cc8] Error 1
+        make: *** [cmTC_d4cc8/fast] Error 2
+        
+      exitCode: 2
+...
